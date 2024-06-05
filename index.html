@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="home-styles/header.css">
+        <link rel="stylesheet" href="home-styles/body.css">
+        <title>Home</title>
+        <style>
+            body{
+                background-color: rgb(0, 0, 0);
+            }
+        </style>
+    </head>
+
+        <body>
+
+        <div class="all-elements">
+
+            <div class="header">
+
+                <div class="name">      <span class="colored-letters">K</span>en</div>
+                <div class="home">      <a href="index.html"> Home          </a></div>
+                <div class="about">     <a href="about.html"> About         </a></div>
+                <div class="portfolio"> <a href="portfolio.html"> Portflio  </a></div>
+
+
+            </div> 
+            
+            
+
+            <div class="body-mid">
+                <!--put background-color: red; beside style if you want to see the main div box-->
+                <div class="info" style="
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+                ">
+
+                
+
+                <div class="text-info">
+                    I am Ken Logan, 
+                    a full-stack software developer.
+                </div>
+                
+                
+
+            
+                </div>
+                
+                
+                
+                         <!--put background-color: lightblue; beside style if you want to see the main div box-->
+
+                <div class="contacts">
+                    <div class="contact-info" style=
+                    "font-size: 50px;
+                     
+                    "><span class="colored-letters">C</span>ontact info.</div>
+                    <div class="phone-number">662-910-8970</div>
+                    <div class="email-address">kendricklogan11@gmail.com</div>
+
+
+                    <div style=
+                    "font-size: 50px;
+                     
+                    "><span class="colored-letters">S</span>ocials</div>
+                    <div></div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/kendrick-logan-24b97026a/" target="_blank"> <img class="linked-in-logo" src="images/linked-in-logo.png"></a>
+                        <a href="https://github.com/KenLogan" target="_blank"><img class="github-logo" src="images/github-logo.png"></a>
+                        <a href="https://www.instagram.com/ken_kusho/" target="_blank"><img class="instagram-logo" src="images/instagram-logo.png"></a>
+                    </div>
+                
+                
+                </div>
+
+                <div class="portrait"><img src="images/my-portrait.PNG" style="width: 60%; margin-left: 200px; margin-top: 100px;"></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="fixed-div">
+            <!--text could go here, but its unnessary-->
+        </div>
+
+
+        <script>
+            function flashBlue() {
+                const textInfo = document.querySelector('.text-info');
+                textInfo.classList.add('flash-blue');
+                setTimeout(() => {
+                    textInfo.classList.remove('flash-blue');
+                }, 1000);
+            }
+    
+            setInterval(flashBlue, 8000);
+        </script>
+
+        </body>
+
+</html>
+
+<!--Ideas, animate the I am kendrick logan portion to turn form blue back to white like every 20 seconds,
+    fix the ken part of the flexbox to stay about the text when screen is reduced,
+    change all fonts to be the same, maybe you can find a good one on the internet.
+    add giant blue bar on the left with low opacity, same blue
+
+    research updating the website after the domain is pusblised
+
+-->

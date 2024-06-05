@@ -1,0 +1,89 @@
+
+
+    .body-mid{
+        /*background-color: lightpink;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;/*Stop*/
+        grid-template-rows: auto auto;
+        column-gap:40px;
+        margin-top: 100px;
+    }
+    
+    .colored-letters{
+        color: rgb(24, 54, 211);
+        
+    }
+
+    .info{
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 50px;
+    }
+    
+    .text-info{
+        margin-top: 200px;
+        font-size: 30px;
+        text-align: center;
+        color:white;
+        margin-bottom: 165px;
+        transition: color 1s;/*Animation test*/
+    }
+
+
+    .flash-blue {
+        color: rgb(24, 55, 211) !important;
+    }
+    /*The flash-blue class and the transition color 1s in the text-info class are for the javscript, if you change your mind
+    about the java script, delete both of these*/
+    .contacts{
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 100px;
+        display: grid;
+        place-items: center;
+        color: white;
+    }
+
+    .phone-number{
+        font-size: 20px;
+    }
+
+    .email-address{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .linked-in-logo{
+        height: 50px;
+    }
+
+    .github-logo{
+        height: 50px;
+    }
+
+    .instagram-logo{
+        height:50px;
+    }
+    
+    .portrait{
+        grid-column: 2;
+        grid-row: 1/span2; /*span 2 is necessary so it can span both the other columns*/
+       /* padding-bottom: 10px; i forgot why i put this here, ill keep it for later*/
+       /*background-color: lightgreen;*/
+       width: 900px;
+       height: auto;
+    }
+  /*  
+    .fixed-div {
+        position: fixed;
+        top: 0px; 
+        left: 150px; 
+        width: 600px; 
+        height: 100%; 
+        background-color: rgba(24, 74, 211, 0.2); 
+        color: white;
+        z-index: 1000; 
+        padding: 20px;
+    }
+    
+not using until i can figure out how to properly adjust between screen sizes/*

@@ -1,0 +1,50 @@
+
+    .summary{
+        text-align: center;
+        font-size: 20px;
+       /* background-color: lightblue;*/
+    }
+
+    .sum-body-head{
+        color:white;
+    }
+
+    .sum-body-mid{
+        font-size: 23px;
+        color:white
+    }
+
+    .body-grids{
+        /*background-color: lightpink;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;/*Stop*/
+        /*grid-template-rows: auto auto;*/
+        column-gap:40px;
+        margin-top: 100px;
+    }
+
+    .developmental-skills{
+     /*background-color: lightpink;*/
+     color: white;
+    }
+
+    .developmental-skills-word{
+        color: rgb(24, 54, 211);
+    }
+
+    .other-skills{
+        /*background-color: lightblue;*/
+        color: white;
+    }
+
+    .other-skills-word{
+        color: rgb(24, 54, 211);
+    }
+    .mastered-word{
+        font-size: 20px;
+    }
+
+    .proficient-word{
+        color:black;
+    }
+

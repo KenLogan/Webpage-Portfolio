@@ -1,0 +1,69 @@
+    .header{
+        
+        /*background-color: lightblue;*/
+        display: flex;
+        font-size: 20px;
+        color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: rgb(24, 54, 211);
+        
+    }
+    
+    .colored-letters{
+        color: rgb(24, 54, 211);
+        
+    }
+
+    .name{
+        flex:1;
+        margin-left: 400px;
+        font-size: 65px;
+        
+    }
+
+    .name,.home,.about,.portfolio{
+        align-self: center;
+    }
+
+    .home:hover,.about:hover,.portfolio:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(24, 54, 211);
+        text-underline-offset: 0.2em;
+    }
+
+    .home:active,.about:active,.portfolio:active{
+        color: rgb(24, 54, 211);
+    }
+
+    .home{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .about{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    /*testing*/
+
+    .about a,.home a,.portfolio a{
+        color:inherit;
+        text-decoration: none;
+        /*ensures the hyperlink wont effect color*/
+    }
+
+    .about a:visited,.home a:visited,.portfolio a:visited{
+        color: inherit;
+        text-decoration: none;
+    }
+
+    
+
+
+    .portfolio{
+        margin-right: 40px;
+        cursor: pointer;
+    }
+ 
